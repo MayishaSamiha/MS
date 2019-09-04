@@ -1,9 +1,9 @@
-ox:osx
+ox: osx
 osx_image : xcode10.2
 
 language: bash
 
-before_install
+before_install:
 - whoami
 - echo "start of pipeline"
 - HOMEBREW _NO _AUTO_ UPDATE=1
