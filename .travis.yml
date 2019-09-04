@@ -6,5 +6,5 @@ language: bash
 before_install:
 - whoami
 - echo "start of pipeline"
-- HOMEBREW _NO _AUTO_ UPDATE=1
+- HOMEBREW_NO_AUTO_UPDATE=1
 
