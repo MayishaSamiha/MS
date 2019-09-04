@@ -7,4 +7,9 @@ before_install:
 - whoami
 - echo "start of pipeline"
 - HOMEBREW_NO_AUTO_UPDATE=1
-
+before_cache:
+  -brew cleanup
+cache:
+  -directories:
+    -$HOME/Library/caches/homebrew
+    
