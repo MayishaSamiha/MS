@@ -30,8 +30,8 @@ script:
 notifications:
   email:
     recipients:
-      - rajputrao@gmail.com
-      - s329940@oslomet.no
+      - samiha.eee.09@gmail.com
+      - s340028@oslomet.no
     on_success: never # default: change
     on_failure: always # default: always
    
